@@ -1,8 +1,19 @@
+<script lang="ts">
+    import { browser } from "$app/environment";
+    import Egg from './egg.svelte'
+
+    if (browser) {
+
+    }
+
+</script>
+
 <body>
     <div class="nav">
         <input class="button register" type="button" value="signup" />
         <input class="button login" type="button" value="login"/>
     </div>
+    <Egg></Egg>
 </body>
 
 <style>
@@ -33,6 +44,8 @@
 
         font-size: 120%;
         font-family: Cozy, sans-serif;
+
+        z-index: 1;
     }
 
     .login {
@@ -58,4 +71,5 @@
         transition: 0.4s ease-out;
         transform: scale(1.1);
     }
+
 </style>
