@@ -1,13 +1,15 @@
 <script lang="ts">
     import { browser } from "$app/environment";
-    import Egg from './egg.svelte'
-    import Arrow from './pointer.svelte'
-
+    import Egg from '$lib/index/egg.svelte'
     if (browser) {
 
     }
 
 </script>
+
+<svelte:head>
+    <title>ourDuck - Home</title>
+</svelte:head>
 
 <body>
     <div class="nav">
@@ -15,7 +17,6 @@
         <a href="/register"><input type="button" class="button register" value="sign up"></a>
     </div>
     <Egg></Egg>
-    <Arrow></Arrow>
 </body>
 
 <style>

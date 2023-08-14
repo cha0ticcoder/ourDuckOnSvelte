@@ -24,5 +24,8 @@
 		"vite": "^4.4.2",
 		"vitest": "^0.33.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"pocketbase": "^0.16.0"
+	}
 }

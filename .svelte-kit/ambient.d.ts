@@ -37,7 +37,6 @@ declare module '$env/static/private' {
 	export const ComSpec: string;
 	export const DriverData: string;
 	export const EDITOR: string;
-	export const FIG_JETBRAINS_SHELL_INTEGRATION: string;
 	export const FPS_BROWSER_APP_PROFILE_STRING: string;
 	export const FPS_BROWSER_USER_PROFILE_STRING: string;
 	export const HOME: string;
@@ -89,15 +88,12 @@ declare module '$env/static/private' {
 	export const ProgramFiles: string;
 	export const ProgramW6432: string;
 	export const PROMPT: string;
-	export const PSExecutionPolicyPreference: string;
 	export const PSModulePath: string;
 	export const PUBLIC: string;
 	export const SESSIONNAME: string;
 	export const SystemDrive: string;
 	export const SystemRoot: string;
 	export const TEMP: string;
-	export const TERMINAL_EMULATOR: string;
-	export const TERM_SESSION_ID: string;
 	export const TMP: string;
 	export const USERDOMAIN: string;
 	export const USERDOMAIN_ROAMINGPROFILE: string;
@@ -144,7 +140,6 @@ declare module '$env/dynamic/private' {
 		ComSpec: string;
 		DriverData: string;
 		EDITOR: string;
-		FIG_JETBRAINS_SHELL_INTEGRATION: string;
 		FPS_BROWSER_APP_PROFILE_STRING: string;
 		FPS_BROWSER_USER_PROFILE_STRING: string;
 		HOME: string;
@@ -196,15 +191,12 @@ declare module '$env/dynamic/private' {
 		ProgramFiles: string;
 		ProgramW6432: string;
 		PROMPT: string;
-		PSExecutionPolicyPreference: string;
 		PSModulePath: string;
 		PUBLIC: string;
 		SESSIONNAME: string;
 		SystemDrive: string;
 		SystemRoot: string;
 		TEMP: string;
-		TERMINAL_EMULATOR: string;
-		TERM_SESSION_ID: string;
 		TMP: string;
 		USERDOMAIN: string;
 		USERDOMAIN_ROAMINGPROFILE: string;
