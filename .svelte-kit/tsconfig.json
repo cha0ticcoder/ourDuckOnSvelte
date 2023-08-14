@@ -1,6 +1,12 @@
 {
 	"compilerOptions": {
 		"paths": {
+			"$project": [
+				"../../../../.."
+			],
+			"$project/*": [
+				"../../../../../*"
+			],
 			"$lib": [
 				"../src/lib"
 			],
